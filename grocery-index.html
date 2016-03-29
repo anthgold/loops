@@ -1,0 +1,47 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <!-- Latest compiled and minified CSS -->
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.6/css/bootstrap.min.css" integrity="sha384-1q8mTJOASx8j1Au+a5WDVnPi2lkFfwwEAa8hDDdjZlpLegxhjVME1fgjWPGmkzs7" crossorigin="anonymous">
+    <!-- Optional theme -->
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.6/css/bootstrap-theme.min.css" integrity="sha384-fLW2N01lMqjakBkx3l/M9EahuwpSfeNvV63J5ezn3uZzapT0u7EYsXMjQV+0En5r" crossorigin="anonymous">
+    <!-- Latest compiled and minified JavaScript -->
+    <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.6/js/bootstrap.min.js" integrity="sha384-0mSbJDEHialfmuBBQP6A4Qrprq5OVfW37PRR3j5ELqxss1yVqOtnepnHVP9aJ7xS" crossorigin="anonymous"></script>
+    <!-- My css HERE <link rel="stylesheet" type="text/css" href="css/styles.css"> -->
+    <!-- Minified JQuery -->
+    <script src="https://code.jquery.com/jquery-1.12.2.min.js" integrity="sha256-lZFHibXzMHo3GGeehn1hudTAP3Sc0uKXBXAzHX1sjtk=" crossorigin="anonymous"></script>
+    <!-- My JS -->
+    <script src="grocery-scripts.js"></script>
+    <meta charset="utf-8">
+    <title>Grocery List</title>
+  </head>
+  <body>
+    <!-- User inputs groceries here -->
+    <form id= "userList">
+      <div class="form-group">
+        <label for="item1">Please enter a grocery item:</label>
+        <input id="item1" class="form-control" type="text">
+      </div>
+      <div class="form-group">
+        <label for="item2">Please enter another grocery item:</label>
+        <input id="item2" class="form-control" type="text">
+      </div>
+      <div class="form-group">
+        <label for="item3">Please enter another grocery item:</label>
+        <input id="item3" class="form-control" type="text">
+      </div>
+      <div class="form-group">
+        <label for="item4">Please enter another grocery item:</label>
+        <input id="item4" class="form-control" type="text">
+      </div>
+      <div class="form-group">
+        <label for="item5">Please enter a last grocery item:</label>
+        <input id="item5" class="form-control" type="text">
+      </div>
+    <!-- Submit button -->
+      <button id="click" type="submit" class="btn">Scramble that shit!</button>
+    <!-- Barf out the output here -->
+    <ul id="sorted"></ul>
+    </form>
+  </body>
+</html>
