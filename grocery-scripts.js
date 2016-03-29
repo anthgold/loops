@@ -9,7 +9,7 @@ $(document).ready(function() {
     });
 
     groceries.sort();
-    for (var inputs = 0; inputs <= 4; inputs += 1) {
+    for (inputs = 0; inputs <= 4; inputs += 1) {
     $("#sorted").append("<li>" + groceries[inputs] + "</li>");
     }
   });
